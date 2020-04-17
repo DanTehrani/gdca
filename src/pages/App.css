@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Noto Sans CJK JP Bold';
+  src: url('%PUBLIC_URL%/fonts/NotoSansCJKjp-Bold.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Sans CJK JP';
+  src: url('%PUBLIC_URL%/fonts/NotoSansCJKjp-Medium.otf') format('woff');
+}
+
+html {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1170px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 16px;
+  }
+}
