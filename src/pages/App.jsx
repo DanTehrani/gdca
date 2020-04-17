@@ -15,7 +15,10 @@ import PrivacyPolicy from './PrivacyPolicy';
 import ApproachToGovernments from './ApproachToGovernments';
 
 const theme = {
-  textColor: '#007850'
+  textColor: '#007850',
+  fontFamily: 'Noto Sans CJK JP',
+  yellow: '#FFE664',
+  red: '#C80032'
 }
 
 function App () {
