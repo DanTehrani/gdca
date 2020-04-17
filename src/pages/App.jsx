@@ -17,6 +17,7 @@ import ApproachToGovernments from './ApproachToGovernments';
 const theme = {
   textColor: '#007850',
   fontFamily: 'Noto Sans CJK JP',
+  fontFamilyBold: 'Noto Sans CJK JP Bold',
   yellow: '#FFE664',
   red: '#C80032'
 }
