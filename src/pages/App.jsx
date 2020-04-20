@@ -21,7 +21,8 @@ const theme = {
   green: '#007850',
   yellow: '#FFE664',
   red: '#C80032',
-  blue: '#0032c8'
+  blue: '#0032c8',
+  beige: '#FAF5C8'
 }
 
 function App () {

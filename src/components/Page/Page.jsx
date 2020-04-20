@@ -5,7 +5,7 @@ import media from 'styled-media-query';
 const StyledPage = styled.div`
   margin-right: auto;
   margin-left: auto;
-  max-width: 1200px;
+  max-width: ${props => props.maxWidth || '1200px'};
   padding-top: 30px;
   ${media.lessThan('large')`
     max-width: 950px;
@@ -20,7 +20,7 @@ const StyledPage = styled.div`
 
 function Page(props) {
   return (
-    <StyledPage>
+    <StyledPage {...props}>
       {props.children}
     </StyledPage>
   )
