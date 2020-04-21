@@ -9,6 +9,7 @@ import Footer from '../components/Footer';
 import Page from '../components/Page';
 import QA from '../components/FAQ/QA';
 import QA2 from '../components/FAQ/QA2';
+import FloatingFAQImage from '../components/FAQ/FloatingFAQImage';
 
 const StyledFAQ = styled.div`
   font-size: 16px;
@@ -85,15 +86,21 @@ const qas = [
 ]
 
 function FAQ () {
-  const isMobileOrTablet = useMediaQuery({ query: '(max-width: 1170px)' });
+  const isLargeScreen = useMediaQuery({ query: '(max-width: 1170px)' });
+  const isTablet = useMediaQuery({ query: '(max-width: 768px)' });
+  const isMobile = useMediaQuery({ query: '(max-width: 450px)' });
+
+  const containerWidth =  isTablet ? '700px' :
+    isLargeScreen ? '990px' : '1240px';
 
   return (
     <Page maxWidth='1120px'>
       <HeaderContainer><Header /></HeaderContainer>
         <StyledFAQ>
+          {!isMobile && <FloatingFAQImage containerWidth={containerWidth} top='7em'/>}
           {
             qas.map((qa, i) =>
-              isMobileOrTablet ?
+              isLargeScreen ?
               <QAContainer><QA2 {...qa} /></QAContainer>
               : !(i % 2) &&
               <QARow key={i}>
