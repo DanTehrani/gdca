@@ -106,7 +106,7 @@ function AboutUs () {
   const isMobile = useMediaQuery({ query: '(max-width: 450px)' });
 
   const containerWidth =  isTablet ? '700px' :
-    isLargeScreen ? '990px' : '1250px';
+    isLargeScreen ? '980px' : '1250px';
 
   return (
     <Page maxWidth='1120px'>

@@ -111,7 +111,7 @@ function FAQ () {
   const isMobile = useMediaQuery({ query: '(max-width: 450px)' });
 
   const containerWidth =  isTablet ? '700px' :
-    isLargeScreen ? '990px' : '1240px';
+    isLargeScreen ? '980px' : '1240px';
 
   return (
     <Page maxWidth='1120px'>
