@@ -30,6 +30,7 @@ const StyledImage = styled.img`
 
 const StyledTextBoard = styled.div`
   font-size: 1em;
+  max-width: 26.875em;
   padding: 3.75em 3.125em 3.625em 3.125em;
   display: flex;
   flex-direction: column;
@@ -39,17 +40,11 @@ const StyledTextBoard = styled.div`
   ${media.lessThan('large')`
     margin-top: 3em;
   `};
-  ${media.lessThan('small')`
-  `};
 `;
 
 const StyledTextBoardTitle = styled.div`
   font-size: 1.5em;
-  width: 17.91em;
   font-family: ${props => props.theme.fontFamilyBold};
-  ${media.lessThan('small')`
-    width: 80vw;
-  `};
 `;
 
 const StyledTextBoardBody = styled.div`
@@ -57,8 +52,6 @@ const StyledTextBoardBody = styled.div`
   margin-top: 2.68em;
   line-height: 1.625em;
   font-family: ${props => props.theme.fontFamily};
-  width: 26.875em;
-  hanging-punctuation: first;
 `;
 
 function WhatIsFFFJapan () {
