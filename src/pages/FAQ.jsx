@@ -10,6 +10,7 @@ import Page from '../components/Page';
 import QA from '../components/FAQ/QA';
 import QA2 from '../components/FAQ/QA2';
 import FloatingFAQImage from '../components/FAQ/FloatingFAQImage';
+import Text from '../components/FAQ/Text';
 
 const StyledFAQ = styled.div`
   font-size: 16px;
@@ -25,7 +26,7 @@ const StyledFAQ = styled.div`
 `;
 
 const HeaderContainer = styled.div`
-  margin-bottom: 2.5em;
+  margin-bottom: 6em;
 `;
 
 const FooterContainer = styled.div`
@@ -47,6 +48,25 @@ const QAContainer = styled.div`
     max-width: 100%;
     margin-top: 3em;
   `}
+`;
+
+const TextContainer = styled.div`
+  width: 100%;
+  text-align: right;
+  margin-bottom: -6.93em;
+  ${media.lessThan('large')`
+    margin-bottom: 0;
+    text-align: center;
+  `};
+`;
+
+const TextWrapper = styled.div`
+  display: inline-block;
+  width: 30em;
+  text-align: left;
+  ${media.lessThan('large')`
+    width: auto;
+  `};
 `;
 
 const qas = [
@@ -97,6 +117,7 @@ function FAQ () {
     <Page maxWidth='1120px'>
       <HeaderContainer><Header /></HeaderContainer>
         <StyledFAQ>
+          <TextContainer><TextWrapper><Text>みなさんからよくいただく<br />質問にお答えします！</Text></TextWrapper></TextContainer>
           {!isMobile && <FloatingFAQImage containerWidth={containerWidth} top='7em'/>}
           {
             qas.map((qa, i) =>
