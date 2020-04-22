@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Noto Sans CJK JP Bold';
-  src: url('%PUBLIC_URL%/fonts/NotoSansCJKjp-Bold.otf') format('woff');
+  src: url('../fonts/NotoSansCJKjp-Bold.otf') format('woff');
 }
 
 @font-face {
   font-family: 'Noto Sans CJK JP';
-  src: url('%PUBLIC_URL%/fonts/NotoSansCJKjp-Medium.otf') format('woff');
+  src: url('../fonts/NotoSansCJKjp-Medium.otf') format('woff');
 }
 
 html {
