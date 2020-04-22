@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Page from '../components/Page';
 import Text from '../components/Text';
+import { ORGANIZE_GOOGLE_FORM_URL } from '../constants';
 const largeSpace = '\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0';
 
 const StyledPrivacyPolicy = styled(Text)`
@@ -73,7 +74,7 @@ function PrivacyPolicy () {
         <Body>
         当サイトが個人情報を収集・利用する目的は、以下のとおりです。 <br />
         {largeSpace}1.ユーザーからのお問い合わせに回答するため <br />
-        {largeSpace}2.当サイトのオーガナイザー応募フォーム(fridaysforfuture.jp/organize)を使い、応募したの方へのご連絡のため <br />
+        {largeSpace}2.当サイトの<a href={ORGANIZE_GOOGLE_FORM_URL}>オーガナイザー募集フォーム</a>使い、応募したの方へのご連絡のため <br />
         {largeSpace}3.重要なお知らせなど必要に応じたご連絡のため <br />
         {largeSpace}4.不正・不当な目的で当サイトを利用しようとするユーザーの特定をし，ご利用をお断りするため <br />
         {largeSpace}5.（上記の利用目的に付随する目的）<br />
@@ -96,7 +97,7 @@ function PrivacyPolicy () {
 
         <Body>
         1.当サイトは，次に掲げる場合を除いて，あらかじめユーザーの同意を得ることなく，
-        第三者に個人情報を提供することはありません。ただし，個人情報保護法その他の法令で認められる場合を除きます。
+        第三者に個人情報を提供することはありません。ただし，個人情報保護法その他の法令で認められる場合を除きます。 <br />
         {largeSpace}1.人の生命，身体または財産の保護のために必要がある場合であって，本人の同意を得ることが困難であるとき <br />
         {largeSpace}2.公衆衛生の向上または児童の健全な育成の推進のために特に必要がある場合であって，本人の同意を得ることが困難であるとき <br />
         {largeSpace}3.国の機関もしくは地方公共団体またはその委託を受けた者が法令の定める事務を遂行することに対して協力する必要がある場合であって，
