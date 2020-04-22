@@ -3,18 +3,16 @@ import styled from 'styled-components'
 import media from 'styled-media-query';
 
 const StyledLabelText = styled.span`
-  color: ${props => props.theme.textColor};
+  color: ${props => props.color || props.theme.textColor};
   background-color: ${props => props.backgroundColor || '#fff'};
-  font-size: ${props => props.fontSize || '16px'};
+  font-size: ${props => props.fontSize || '1em'};
   font-family: 'Noto Sans CJK JP';
   padding: 0px 5px;
 `;
 
 function LabelText (props) {
   return (
-    <StyledLabelText
-      fontSize={props.fontSize}
-      backgroundColor={props.backgroundColor}>
+    <StyledLabelText {...props}>
       {props.children}
     </StyledLabelText>
   )
