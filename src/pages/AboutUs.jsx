@@ -13,6 +13,7 @@ import History4 from '../components/AboutUs/Histories/History4';
 import History5 from '../components/AboutUs/Histories/History5';
 import History6 from '../components/AboutUs/Histories/History6';
 import FloatingAboutUsImage from '../components/AboutUs/FloatingAboutUsImage';
+import ArrowImage from '../components/RandomImages/Arrow';
 
 const StyledAboutUs = styled.div`
     font-size: 16px;
@@ -29,6 +30,29 @@ const StyledAboutUs = styled.div`
 `;
 
 const HeaderContainer = styled.div`
+`;
+
+const WhatIsFFFJapanContainer = styled.div`
+  position: relative;
+`;
+
+const History2Container = styled.div`
+  position: relative;
+`;
+
+const ArrowImageContainer1 = styled.div`
+  position: absolute;
+  left: 75%;
+  ${media.lessThan('large')`
+    top: 103%;
+    left: calc(50% - 20px);
+  `};
+`;
+
+const ArrowImageContainer2 = styled.div`
+  position: absolute;
+  left: 50%;
+  top: 110%;
 `;
 
 const History1_2Container = styled.div`
@@ -113,9 +137,15 @@ function AboutUs () {
       <Header />
         <StyledAboutUs>
           {!isMobile && <FloatingAboutUsImage containerWidth={containerWidth} top='7em'/>}
-          <WhatIsFFFJapan />
+          <WhatIsFFFJapanContainer>
+            <WhatIsFFFJapan />
+            <ArrowImageContainer1><ArrowImage /></ArrowImageContainer1>
+          </WhatIsFFFJapanContainer>
           <History1_2Container>
-            <History2 />
+            <History2Container>
+              <History2 />
+              {useMediaQuery({ query: '(min-width: 1280px)' }) && <ArrowImageContainer2><ArrowImage /></ArrowImageContainer2>}
+            </History2Container>
             <History1 />
           </History1_2Container>
           <History3_4Container>
