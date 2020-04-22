@@ -46,7 +46,8 @@ const StyledTextBoard = styled.div`
 
 const StyledTextBoardTitle = styled.div`
   font-size: 1.5em;
-  font-family: ${props => props.theme.fontFamilyBold};
+  font-family: ${props => props.theme.fontFamily};
+  font-weight: bold;
 `;
 
 const StyledTextBoardBody = styled.div`

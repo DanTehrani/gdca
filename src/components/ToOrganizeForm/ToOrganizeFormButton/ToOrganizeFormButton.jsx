@@ -12,7 +12,8 @@ const StyledToOrganizeFormButton = styled.button`
   color: ${props => props.theme.blue};
   border: 0px;
   border-radius: 2.2em;
-  font-family: ${props => props.theme.fontFamilyBold};
+  font-family: ${props => props.theme.fontFamily};
+  font-weight: bold;
   outline: none;
   &:hover {
     cursor: pointer;

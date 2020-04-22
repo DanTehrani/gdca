@@ -19,7 +19,8 @@ const StyledMessage = styled.span`
   border-color: ${props => props.theme.textColor};
   color: ${props => props.theme.textColor || props.color};
   font-size: 1em;
-  font-family: ${props => props.theme.fontFamilyBold};
+  font-family: ${props => props.theme.fontFamily};
+  font-weight: bold;
   padding: 0.73em 1.09em;
   margin-top: 1.66em;
 `;

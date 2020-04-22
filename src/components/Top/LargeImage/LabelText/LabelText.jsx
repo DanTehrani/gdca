@@ -5,7 +5,7 @@ const StyledLabelText = styled.span`
   color: ${props => props.theme.textColor};
   background-color: ${props => props.backgroundColor || '#fff'};
   font-size: ${props => props.fontSize || '16px'};
-  font-family: 'Noto Sans CJK JP';
+  font-family: ${props => props.theme.fontFamily};
   padding: 0px 5px;
 `;
 

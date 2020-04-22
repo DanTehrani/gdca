@@ -18,7 +18,8 @@ const StyledTitleContainer = styled.div`
 
 const StyledTitle = styled.span`
   color: ${props => props.theme.textColor};
-  font-family: ${props => props.theme.fontFamilyBold};
+  font-family: ${props => props.theme.fontFamily};
+  font-weight: bold;
   white-space: pre-line;
   font-size: 1.375em;
 `;
@@ -26,7 +27,8 @@ const StyledTitle = styled.span`
 const StyledSubTitle = styled.span`
   font-size: 1em;
   color: ${props => props.theme.ocher};
-  font-family: ${props => props.theme.fontFamilyBold};
+  font-family: ${props => props.theme.fontFamily};
+  font-weight: bold;
   text-decoration: underline;
 `;
 
