@@ -1,7 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import holdingBannerImage1 from './holding-banner-1.webp';
-import holdingBannerImage2 from './holding-banner-2.webp';
+import { isWebpSupported } from 'react-image-webp/dist/utils';
+import holdingBannerImage1Webp from './holding-banner-1.webp';
+import holdingBannerImage1 from './holding-banner-1.png';
+import holdingBannerImage2Webp from './holding-banner-2.webp';
+import holdingBannerImage2 from './holding-banner-2.png';
 
 const StyledMessageBanner = styled.div`
   display: flex;
@@ -35,11 +38,12 @@ const StyledHoldingBannerImage2 = styled.img`
 `;
 
 function MessageBanner () {
+  const useWebp = isWebpSupported();
   return (
     <StyledMessageBanner>
-      <StyledHoldingBannerImage src={holdingBannerImage1} />
+      <StyledHoldingBannerImage src={useWebp ? holdingBannerImage1Webp : holdingBannerImage1} />
       <StyledMessage>みんなで守る、みんなの未来</StyledMessage>
-      <StyledHoldingBannerImage2 src={holdingBannerImage2} />
+      <StyledHoldingBannerImage2 src={useWebp ? holdingBannerImage2Webp : holdingBannerImage2} />
     </StyledMessageBanner>
   )
 }

@@ -1,8 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
+import { isWebpSupported } from 'react-image-webp/dist/utils';
 import media from 'styled-media-query';
 import HistoryBoard from '../../HistoryBoard';
-import img from './history1.webp';
+import imgWebp from './history1.webp';
+import img from './history1.png';
 
 const StyledHistory1 = styled.div`
   font-size: 1em;
@@ -39,7 +41,7 @@ function History1 () {
         countText='1'
         paddingBottom='20.875em'
       />
-      <StyledImage src={img} />
+      <StyledImage src={isWebpSupported() ? imgWebp : img} />
     </StyledHistory1>
   )
 }

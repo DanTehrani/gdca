@@ -1,10 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+import { isWebpSupported } from 'react-image-webp/dist/utils';
 import FloatingImage from '../../FloatingImage';
-import img from './faq-text.webp';
+import imgWebp from './faq-text.webp';
+import img from './faq-text.png';
 
 function FloatingFAQImage (props) {
-  return <FloatingImage src={img} width='6.31em' {...props}/>
+  return <FloatingImage src={isWebpSupported() ? imgWebp : img} width='6.31em' {...props}/>
 }
 
 export default FloatingFAQImage;

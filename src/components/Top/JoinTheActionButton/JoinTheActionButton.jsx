@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components'
-import icon from './fffj-join-us.webp';
+import { isWebpSupported } from 'react-image-webp/dist/utils';
+import iconWebp from './fffj-join-us.webp';
+import icon from './fffj-join-us.png';
 import LinkButton from './LinkButton';
 
 const StyledJoinTheActionButton = styled.div`
@@ -39,7 +41,7 @@ function JoinTheActionButton (props) {
     <LinkButton target='_blank' href='https://ja.globalclimatestrike.net/0424digitalstrike/' zIndex={props.zIndex}>
       <StyledJoinTheActionButton {...props}>
         <StyledButtonIconContainer>
-          <StyledButtonIcon src={icon}/>
+          <StyledButtonIcon src={isWebpSupported() ? iconWebp : icon}/>
         </StyledButtonIconContainer>
         <StyledButtonTextContainer>
           <StyledButtonText>アクションに</StyledButtonText>

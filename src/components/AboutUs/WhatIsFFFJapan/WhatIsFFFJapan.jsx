@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import img from './what-is-fffjapan.webp';
+import { isWebpSupported } from 'react-image-webp/dist/utils';
+import imgWebp from './what-is-fffjapan.webp';
+import img from './what-is-fffjapan.png';
 import media from 'styled-media-query';
 
 const StyledWhatIsFFFJapan = styled.div`
@@ -57,7 +59,7 @@ const StyledTextBoardBody = styled.div`
 function WhatIsFFFJapan () {
   return (
     <StyledWhatIsFFFJapan>
-      <StyledImage src={img} />
+      <StyledImage src={isWebpSupported() ? imgWebp : img} />
       <StyledTextBoard>
         <StyledTextBoardTitle>FridaysForFuture Japanとは？</StyledTextBoardTitle>
         <StyledTextBoardBody>

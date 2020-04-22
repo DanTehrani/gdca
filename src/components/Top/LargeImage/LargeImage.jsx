@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components'
-import topImg from './top-image.webp';
+import { isWebpSupported } from 'react-image-webp/dist/utils';
+import topImgWebp from './top-image.webp';
+import topImg from './top-image.png';
 import media from 'styled-media-query';
 import { useMediaQuery } from 'react-responsive';
 import LabelText from './LabelText';
@@ -45,7 +47,7 @@ function LargeImage (props) {
 
   return (
     <StyledLargeImage>
-      <StyledImage src={topImg} />
+      <StyledImage src={isWebpSupported() ? topImgWebp : topImg} />
       <StyledLabelTextContainer>
         <LabelText fontSize={fontSize}>気候変動対策の</LabelText>
         <LabelText fontSize={fontSize}>緊急性を伝えるために</LabelText>

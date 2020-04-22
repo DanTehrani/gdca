@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components'
-import logo from './fffjapan.webp';
+import { isWebpSupported } from 'react-image-webp/dist/utils';
+import logoWebp from './fffjapan.webp';
+import logo from './fffjapan.png';
 import media from "styled-media-query";
 
 const StyledLogo = styled.img`
@@ -9,7 +11,7 @@ const StyledLogo = styled.img`
 `;
 
 function Logo (props) {
-  return <StyledLogo src={logo} width={props.width}/>
+  return <StyledLogo src={isWebpSupported() ? logoWebp : logo} width={props.width}/>
 }
 
 export default Logo;

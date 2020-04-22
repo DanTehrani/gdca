@@ -1,10 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
+import { isWebpSupported } from 'react-image-webp/dist/utils';
 import media from 'styled-media-query';
 import HistoryBoard from '../../HistoryBoard';
-import img1 from './history-4-1.webp';
-import img2 from './history-4-2.webp';
-import img3 from './history-4-3.webp';
+import img1Wep from './history-4-1.webp';
+import img2Wep from './history-4-2.webp';
+import img3Wep from './history-4-3.webp';
+import img1 from './history-4-1.png';
+import img2 from './history-4-2.png';
+import img3 from './history-4-3.png';
 
 const StyledHistory4 = styled.div`
   font-size: 1em;
@@ -61,13 +65,15 @@ function History4 () {
   全国各地24の都道府県と27箇所で計5000人が参加しました。';
   const dateText = '2019.9.20';
 
+  const useWebp = isWebpSupported();
+
   return (
     <StyledHistory4>
       <StyledImagesContainer>
-        <StyledLargeImage src={img1} />
+        <StyledLargeImage src={useWebp ? img1Wep : img1} />
         <StyledSmallImagesContainer>
-          <StyledSmallImage src={img2} />
-          <StyledSmallImage src={img3} />
+          <StyledSmallImage src={useWebp ? img2Wep : img2} />
+          <StyledSmallImage src={useWebp ? img3Wep : img3} />
         </StyledSmallImagesContainer>
       </StyledImagesContainer>
       <HistoryBoard

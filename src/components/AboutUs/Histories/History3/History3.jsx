@@ -1,9 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import { isWebpSupported } from 'react-image-webp/dist/utils';
 import media from 'styled-media-query';
 import HistoryBoard from '../../HistoryBoard';
-import img1 from './history-3-1.webp';
-import img2 from './history-3-2.webp';
+import img1Webp from './history-3-1.webp';
+import img2Webp from './history-3-2.webp';
+import img1 from './history-3-1.png';
+import img2 from './history-3-2.png';
+
 
 const StyledHistory3 = styled.div`
   font-size: 1em;
@@ -47,6 +51,8 @@ function History3 () {
   少しずつ参加者数が増えてきたことに希望が持てました。';
   const dateText = '2019.5.24';
 
+  const useWebp = isWebpSupported();
+
   return (
     <StyledHistory3>
       <HistoryBoard
@@ -57,8 +63,8 @@ function History3 () {
         paddingBottom='17.4em'
       />
       <StyledImagesContainer>
-        <StyledImage src={img1} />
-        <StyledImage src={img2} />
+        <StyledImage src={useWebp ? img1Webp : img1} />
+        <StyledImage src={useWebp ? img2Webp : img2} />
       </StyledImagesContainer>
     </StyledHistory3>
   )
