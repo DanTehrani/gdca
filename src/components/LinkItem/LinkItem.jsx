@@ -6,7 +6,7 @@ const StyledLinkItem = styled(Link)`
   color: ${props => props.theme.textColor || props.color};
   background-color: ${props => props.backgroundColor || 'none'};
   font-size: ${props => props.fontSize};
-  font-family: 'Noto Sans CJK JP';
+  font-family: ${props => props.theme.fontFamily};
   text-decoration: none;
 `;
 

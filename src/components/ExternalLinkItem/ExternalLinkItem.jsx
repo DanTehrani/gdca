@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const StyledExternalLinkItem = styled.a`
   color: ${props => props.theme.textColor || props.color};
   font-size: ${props => props.fontSize};
-  font-family: 'Noto Sans CJK JP';
+  font-family: ${props => props.theme.fontFamily};
   text-decoration: none;
 `;
 

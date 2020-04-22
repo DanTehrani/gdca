@@ -31,7 +31,7 @@ const StyledWhiteCloseButton = styled.span`
   color: ${props => props.theme.textColor};
   background-color: #fff;
   font-size: ${props => props.fontSize};
-  font-family: 'Noto Sans CJK JP';
+  font-family: ${props => props.theme.fontFamily};
   display: inline-block;
 `;
 
