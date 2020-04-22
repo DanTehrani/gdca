@@ -18,6 +18,7 @@ const StyledFooterMobile = styled.div`
   & * {
     margin-top: 7px;
   }
+  padding-bottom: 2em;
 `;
 
 const StyledLogos = styled.div`

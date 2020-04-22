@@ -15,6 +15,7 @@ const StyledFooterDesktop = styled.div`
   justify-content: space-between;
   align-items: center;
   max-width: 100%;
+  padding-bottom: 2em;
 `;
 
 const StyledLogos = styled.div`
