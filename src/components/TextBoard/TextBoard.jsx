@@ -5,7 +5,7 @@ const StyledTextBoard = styled.div`
   font-size: 1em;
   background-color: ${props => props.theme.beige};
   padding: 3.125em;
-  padding-top: ${props => props.paddingTop || '7.87em'};
+  padding-top: ${props => props.paddingTop || '3.125em'};
   color: ${props => props.theme.textColor};
   font-family: ${props => props.theme.fontFamily};
 `;

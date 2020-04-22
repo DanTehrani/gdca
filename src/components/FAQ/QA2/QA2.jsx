@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Callout2 from '../Callout2';
-import TextBoard from '../TextBoard';
+import TextBoard from '../../TextBoard';
 import Avatar from '../Avatar';
 
 const StyledQA2 = styled.div`

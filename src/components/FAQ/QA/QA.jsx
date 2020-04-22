@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Callout from '../Callout';
-import TextBoard from '../TextBoard';
+import TextBoard from '../../TextBoard';
 import Avatar from '../Avatar';
 
 const StyledQA = styled.div`
@@ -36,7 +36,7 @@ function QA (props) {
         <AvatarContainer><Avatar avatarType={avatarType} /></AvatarContainer>
         <CalloutContainer><Callout color={color}>{question}</Callout></CalloutContainer>
       </QContainer>
-      <TextBoard>{answer}</TextBoard>
+      <TextBoard paddingTop='7.87em'>{answer}</TextBoard>
     </StyledQA>
   )
 }
