@@ -130,13 +130,9 @@ function App () {
               <Route path='/gdca-endorsements'>
                 <GDCAEndorsements />
               </Route>  
-              {
-                /*
-                <Route path='/gdca-sharepack'>
-                  <GDCASharePack />
-                </Route>  
-                */
-              }
+              <Route path='/gdca-sharepack'>
+                <GDCASharePack />
+              </Route>  
               <Route path='/archives'>
                 <Archives />
               </Route>

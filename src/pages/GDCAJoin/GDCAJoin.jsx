@@ -182,6 +182,18 @@ function GDCAJoin (props) {
               </HashLink>
             </ButtonContainer>
           </ButtonsRow>
+          <ButtonsRow>
+            <ButtonContainer>
+              <HashLink smooth to='gdca-sharepack'>
+                <IconButton 
+                  text='シェアパック' 
+                  imgSrc={shoes2} 
+                  textColor={props.theme.black}
+                  noTextImg
+                />
+              </HashLink>
+            </ButtonContainer>
+          </ButtonsRow>
         </ButtonsContaienr>
         <GDCAFooter />
       </StyledGDCAJoin>

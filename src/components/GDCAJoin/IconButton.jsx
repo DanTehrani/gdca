@@ -70,7 +70,7 @@ const TextsContainer = styled.div
 
 
 function IconButton (props) {
-  const { imgSrc, text, textImgSrc } = props
+  const { imgSrc, text, textImgSrc, noTextImg } = props
   return (
     <Button {...props}>
       <IconContainer>
@@ -78,9 +78,12 @@ function IconButton (props) {
       </IconContainer>
       <TextsContainer>
         <StyledText bold color={props.textColor}>{text}</StyledText>
-        <TextImageContainer>
-          <TextImage src={textImgSrc} />
-        </TextImageContainer>
+        {
+          !noTextImg &&
+          <TextImageContainer>
+            <TextImage src={textImgSrc} />
+          </TextImageContainer>
+        }
       </TextsContainer>
     </Button>
   )

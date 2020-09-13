@@ -52,7 +52,7 @@ function GDCAHeaderMobile (props) {
             {pathname !== '/gda-application-form' 
               && <MobileLinkItem fontSize={fontSize} to='/gda-application-form'>企画する</MobileLinkItem>
             }
-            {false && pathname !== '/' 
+            {pathname !== '/gdca-sharepack' 
               && <MobileLinkItem fontSize={fontSize} to='/gdca-sharepack'>シェアパック</MobileLinkItem>
             }
             {false && pathname !== '/' 
