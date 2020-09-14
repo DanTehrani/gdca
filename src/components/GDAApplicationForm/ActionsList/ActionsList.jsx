@@ -74,7 +74,7 @@ function ActionsList () {
       actionTitle: '“世界気候アクション0925” GLOBAL DAY OF CLIMATE ACTION',
       eventPageURL: '',
       org: 'バートンジャパン合同会社',
-      orgURL: 'www.burton.com'
+      orgURL: 'https://www.burton.com'
     },
     {
       time: '17:00-17:30',
