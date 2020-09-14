@@ -186,7 +186,7 @@ function GDCAJoin (props) {
             <ButtonContainer>
               <HashLink smooth to='gdca-sharepack'>
                 <IconButton 
-                  text='シェアパック' 
+                  text='広報素材（チラシなど）' 
                   imgSrc={shoes2} 
                   textColor={props.theme.black}
                   noTextImg

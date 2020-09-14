@@ -60,14 +60,14 @@ function GDCASharePack (props) {
   return (
     <PageGDCA maxWidth='1120px'>
       <TextContainer>
-      以下よりダウンロードできるシェアパックには、 <br />
-      世界気候アクション0925（GDCA）の広報に使える素材が詰まってます！
+      以下よりダウンロードできるシェアパック（広報素材）には、 <br />
+      世界気候アクション0925（GDCA）の広報に使えるチラシや画像が詰まってます！
       </TextContainer>
       <DownloadButtonContainer>
-        <DownloadButton href='/gdca-sharepack.zip' text='シェアパックをダウンロード' />
+        <DownloadButton href='/gdca-sharepack.zip' text='広報素材をダウンロード' />
       </DownloadButtonContainer>
       <BoxesContainer>
-        <Title bold>シェアパックに入っているもの</Title>
+        <Title bold>広報素材一覧<br/>シェアパックに入っているもの</Title>
         <Box
           title='署名QRコード'
           text='印刷してプラカードに貼り、署名を呼びかけよう！リンクの貼れないインスタでも、URLがすぐ見つからなくても、これでOK！'

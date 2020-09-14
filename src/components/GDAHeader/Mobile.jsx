@@ -53,7 +53,7 @@ function GDCAHeaderMobile (props) {
               && <MobileLinkItem fontSize={fontSize} to='/gda-application-form'>企画する</MobileLinkItem>
             }
             {pathname !== '/gdca-sharepack' 
-              && <MobileLinkItem fontSize={fontSize} to='/gdca-sharepack'>シェアパック</MobileLinkItem>
+              && <MobileLinkItem fontSize={fontSize} to='/gdca-sharepack'>広報素材(チラシなど)</MobileLinkItem>
             }
             {false && pathname !== '/' 
               && <MobileLinkItem fontSize={fontSize} to='/gdca-endorsements'>賛同団体</MobileLinkItem>
