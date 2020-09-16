@@ -18,7 +18,7 @@ const DownloadButtonContainer = styled.div
 `
   margin: 40px 0;
   ${media.greaterThan('medium')`
-    margin: 80px 0;
+    margin: 40px 0;
   `};
   text-align: center;
 `
@@ -65,6 +65,12 @@ function GDCASharePack (props) {
       </TextContainer>
       <DownloadButtonContainer>
         <DownloadButton href='/gdca-sharepack.zip' text='広報素材をダウンロード' />
+      </DownloadButtonContainer>
+      <DownloadButtonContainer>
+        <DownloadButton 
+          href='https://drive.google.com/drive/u/0/folders/1r_YdxBM_1Ljk4cQDc2wSU928yh19PUuR' 
+          text='Google Driveからダウンロード' 
+          />
       </DownloadButtonContainer>
       <BoxesContainer>
         <Title bold>広報素材一覧<br/>シェアパックに入っているもの</Title>

@@ -8,10 +8,12 @@ const StyledDownloadButton = styled.button
 `
   background-color: blue;
   border: 0;
-  padding: 20px 40px;
+  padding: 20px 0;
   &:hover {
     cursor: pointer;
   }
+  text-align: center;
+  width: 270px;
 `
 
 const StyledText = styled(Text)
@@ -22,7 +24,7 @@ const StyledText = styled(Text)
 function DownloadButton (props) {
   const { href, text } = props
   return (
-    <a href={href} download>
+    <a href={href} download target='_blank'>
       <StyledDownloadButton>
         <StyledText bold>{text}</StyledText>
       </StyledDownloadButton>
