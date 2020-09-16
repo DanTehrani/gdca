@@ -13,7 +13,7 @@ import sampleTwitter from './sample-twitter.png'
 import hashTag from './images/hash-tag-1.png'
 import shoes from './images/shoes.png'
 import shoesAction from './images/shoes-action.png'
-
+import InstagramEmbed from 'react-instagram-embed';
 
 const StyledPage = styled(Page)`
   font-size: 16px;
@@ -173,6 +173,29 @@ const WhiteLabelText = styled(StyledText)
   padding: 0.5em;
 `
 
+const VideoContainer = styled.div
+`
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  ${media.lessThan('medium')`
+    flex-direction: column;
+  `}
+  justify-content: space-evenly;
+  align-items: center;
+`
+
+const VideoTitle = styled(Text)
+`
+  display: block;
+  color: ${props => props.theme.blue};
+  font-size: 2em;
+  ${media.greaterThan('medium')`
+    width: 390px;
+  `}
+`
+
+
 function GDCAJoinOnline (props) {
   const isMobileOrTablet = useMediaQuery({ query: '(max-width: 767px)' })
   
@@ -254,6 +277,27 @@ function GDCAJoinOnline (props) {
           </TextContainer>
         </LowerContainer>
       </LargeBox>
+      
+      <VideoContainer>
+        <VideoTitle bold>オンラインでの参加方法を<br />動画で確認！</VideoTitle>
+        <InstagramEmbed
+          url='https://www.instagram.com/p/CFGxGpLntxX/?utm_source=ig_web_copy_link'
+          maxWidth={500}
+          hideCaption={true}
+          containerTagName='div'
+        />
+      </VideoContainer>
+      
+      <VideoContainer>
+        <VideoTitle bold>ツイートストームへの<br />参加方法を動画で確認！</VideoTitle>
+        <InstagramEmbed
+          url='https://www.instagram.com/p/CFGxiVEHtiG/?utm_source=ig_web_copy_link'
+          maxWidth={500}
+          hideCaption={true}
+          containerTagName='div'
+        />
+      </VideoContainer>
+      
       
     </PageGDCA>
   )

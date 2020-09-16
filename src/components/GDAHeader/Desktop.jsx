@@ -2,6 +2,7 @@ import React from 'react'
 import styled, { withTheme } from 'styled-components'
 import media from 'styled-media-query'
 import { withRouter, Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import { useMediaQuery } from 'react-responsive'
 import headerImage from './header-image.png'
 
@@ -70,7 +71,9 @@ function GDCAHeaderDesktop (props) {
     <StyledHeader>
       <UpperHalfContainer>
           <StyledLogos>
-            <HeaderImage src={headerImage} />
+            <HashLink to="/#gdca-home" smooth>
+              <HeaderImage src={headerImage} />
+            </HashLink>
           </StyledLogos>
           <StyledLinkItems>
             <StyledLinkItem fontSize={fontSize} to='/gdca-demand' selected={pathname === '/gdca-demand' }>私たちが求めること</StyledLinkItem>

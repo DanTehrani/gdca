@@ -25,6 +25,7 @@ import greenArrow from './green-arrow.png'
 import sampleInsta from './sample-insta.jpg'
 import sampleTwitter from './sample-twitter.png'
 import shoes2 from './shoes2.png'
+import InstagramEmbed from 'react-instagram-embed';
 
 const StyledPage = styled(Page)`
   font-size: 16px;
@@ -229,9 +230,27 @@ const JoinOnlineButtonContainer = styled.div
   display: flex;
   justify-content: center;
 `
+const VideoContainer = styled.div
+`
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  ${media.lessThan('medium')`
+    flex-direction: column;
+  `}
+  justify-content: space-evenly;
+  align-items: center;
+`
 
-
-
+const VideoTitle = styled(Text)
+`
+  display: block;
+  color: ${props => props.theme.blue};
+  font-size: 2em;
+  ${media.greaterThan('medium')`
+    width: 390px;
+  `}
+`
 
 
 function GDAParticipantInfo (props) {
@@ -282,7 +301,15 @@ FFF JapanのHPの<HashLink smooth to='gda-application-form#actions-list'><TextLi
 SNSで自分の思いとともにみんなへ拡散だ
           </ProcessTextContainer>
         </ProcessItemContainer>
-        
+        <VideoContainer>
+          <VideoTitle bold>動画で参加方法を確認！</VideoTitle>
+            <InstagramEmbed
+              url='https://www.instagram.com/p/CFGu8CeHMVd/?utm_source=ig_web_copy_link'
+              maxWidth={500}
+              hideCaption={true}
+              containerTagName='div'
+            />
+        </VideoContainer>
         <Section>
         <br />
           <br />

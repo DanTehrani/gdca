@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { withRouter, Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import headerImage from './header-image.png'
 import MobileLinkItem from '../Header/MobileLinkItem'
 import LinkMenu from '../LinkMenu'
@@ -40,7 +41,9 @@ function GDCAHeaderMobile (props) {
     <StyledHeader>
       <UpperHalfContainer>
           <StyledLogos>
-            <HeaderImage src={headerImage} />
+            <HashLink to="/#gdca-home" smooth>
+              <HeaderImage src={headerImage} />
+            </HashLink>
           </StyledLogos>
           <LinkMenu fontSize={fontSize}>
             {pathname !== '/' 
