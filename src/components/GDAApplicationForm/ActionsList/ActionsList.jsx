@@ -187,7 +187,49 @@ function ActionsList () {
       eventPageURL: 'https://www.facebook.com/events/410706736563468/',
       org: 'Green Sophia',
       orgURL: ''
-    }
+    },
+    {
+      time: '18:30-20:00',
+      actionTitle: '温暖化が進むとどうなる？未来の人道危機を抑えるために今、私たちにできること',
+      eventPageURL: 'https://www.facebook.com/events/363289171511406/',
+      org: '（公財）世界自然保護基金ジャパン（WWFジャパン）',
+      orgURL: 'https://www.wwf.or.jp/'
+    },
+    {
+      time: '15:00-18:00',
+      actionTitle: 'シューズアクション/フォトアクション',
+      eventPageURL: '',
+      org: 'save the only planet (STOP)',
+      orgURL: ''
+    },
+    {
+      time: '',
+      actionTitle: 'GLOBAL DAY OF CLIMATE ACTION with KEEN Japan',
+      eventPageURL: '',
+      org: 'KEEN Japan',
+      orgURL: 'https://www.keenfootwear.com/ja-jp/'
+    },
+    {
+      time: '9:00-11:00',
+      actionTitle: '「世界気候アクション0925」350Tokyoシューズアクション日比谷',
+      eventPageURL: '',
+      org: '350Tokyo',
+      orgURL: 'https://www.facebook.com/350tokyo/'
+    },
+    {
+      time: '6:00-7:00',
+      actionTitle: '「世界気候アクション0925」350Tokyoシューズアクション渋谷',
+      eventPageURL: '',
+      org: '350Tokyo',
+      orgURL: 'https://www.facebook.com/350tokyo/'
+    },
+    {
+      time: '',
+      actionTitle: 'KEEN HARAJUKU GARAGEシューズアクション',
+      eventPageURL: '',
+      org: 'KEEN Harajuku Garage',
+      orgURL: 'https://www.keenfootwear.com/ja-jp/'
+    },
   ]
   
   return (
