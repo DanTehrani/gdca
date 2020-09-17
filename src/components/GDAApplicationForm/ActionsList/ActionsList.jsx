@@ -210,7 +210,7 @@ function ActionsList () {
       orgURL: 'https://www.keenfootwear.com/ja-jp/'
     },
     {
-      time: '9:00-11:00',
+      time: '9月20日 9:00-11:00',
       actionTitle: '「世界気候アクション0925」350Tokyoシューズアクション日比谷',
       eventPageURL: '',
       org: '350Tokyo',
