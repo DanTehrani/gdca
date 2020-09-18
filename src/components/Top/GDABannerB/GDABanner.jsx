@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import media from 'styled-media-query'
-import slider from './20200827_gdca_slider_00.jpg'
+import slider from './20200827_gdca_slider_00.png'
 import { useHistory } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link'
 import { GDA_APPLICATION_PAGE_URL } from '../../../constants'
