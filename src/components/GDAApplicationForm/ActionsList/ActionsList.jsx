@@ -240,6 +240,20 @@ function ActionsList () {
       org: 'KEEN Harajuku Garage',
       orgURL: 'https://www.keenfootwear.com/ja-jp/'
     },
+    {
+      time: '-18:00',
+      actionTitle: '目指せ緑の地図帳！～世界気候アクション0925 in Osaka～',
+      eventPageURL: 'https://www.facebook.com/events/638190033510084/',
+      org: 'Fridays for Future Osaka',
+      orgURL: 'https://www.facebook.com/fridaysforfutureosaka'
+    },
+    {
+      time: '14:00-14:45',
+      actionTitle: '世界気候アクション0925 in 多賀城',
+      eventPageURL: 'https://www.facebook.com/sendaipowerstation',
+      org: <span>仙台パワーステーション操業差止訴訟原告団,<br/>仙台港の石炭火力発電所建設問題を考える会,<br/>Fridays for Future Sendai</span>,
+      orgURL: 'https://stopsendaips.jp/'
+    }
   ]
   
   const actionListPatagonia = [
