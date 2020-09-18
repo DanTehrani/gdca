@@ -222,14 +222,14 @@ function ActionsList () {
     {
       time: '9月20日 9:00-11:00',
       actionTitle: '「世界気候アクション0925」350Tokyoシューズアクション日比谷',
-      eventPageURL: '',
+      eventPageURL: 'https://docs.google.com/presentation/d/1h3BMasAmosHQxji4YP-pSRgYt8H7khFiNk9ZuZxZn_c/edit#slide=id.p',
       org: '350Tokyo',
       orgURL: 'https://www.facebook.com/350tokyo/'
     },
     {
       time: '6:00-7:00',
       actionTitle: '「世界気候アクション0925」350Tokyoシューズアクション渋谷',
-      eventPageURL: '',
+      eventPageURL: 'https://docs.google.com/presentation/d/1h3BMasAmosHQxji4YP-pSRgYt8H7khFiNk9ZuZxZn_c/edit#slide=id.p',
       org: '350Tokyo',
       orgURL: 'https://www.facebook.com/350tokyo/'
     },
