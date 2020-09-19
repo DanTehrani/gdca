@@ -222,7 +222,7 @@ function GDAApplicationForm (props) {
   const organizeWidth = isMobileOrTablet ? '330px' : '430px'
   
   return (
-    <Page maxWidth='1120px'>
+    <Page maxWidth='1280px'>
       <HeaderContainer><GDAHeader /></HeaderContainer>
       <StyledGDAApplicationForm>
         <Heading1Container>
