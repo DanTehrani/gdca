@@ -345,8 +345,12 @@ export default list.map((item) => {
   
   const startTimeText = !(isNaN(startHour) || isNaN(startMinute)) ? `${startHour}:${startMinute}` : ''
   const endTimeText = !(isNaN(endHour) && isNaN(endMinute)) ? `${endHour}:${endMinute}` : ''
-	const time = (startTimeText !== '' && endTimeText !=='') ? `${startTimeText}-${endTimeText}` : ''
+	let time = (startTimeText !== '' && endTimeText !=='') ? `${startTimeText}-${endTimeText}` : ''
   
+	if (item['actionTitle'] === '「世界気候アクション0925」350Tokyoシューズアクション日比谷') {
+		time = `9/20 ${time}`
+	}
+	
   return { 
     time: time, 
     ...item 
