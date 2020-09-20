@@ -328,6 +328,16 @@ const list = [
 		"timeStart": "",
 		"timeEnd": "",
 		"place": ""
+	},
+	{
+		"org": "Fridays For Future Tokyo",
+		"orgURL": "https://instagram.com/fridaysforfuturetokyo?igshid=16r5liphvegcf",
+		"actionTitle": "シューズアクション",
+		"eventPageURL": "https://www.facebook.com/events/247319149961563/",
+		"action": "シューズアクション",
+		"timeStart": "1899-12-30T07:00:00.000Z",
+		"timeEnd": "1899-12-30T09:00:00.000Z",
+		"place": "国会議事堂正門前"
 	}
 ]
 
