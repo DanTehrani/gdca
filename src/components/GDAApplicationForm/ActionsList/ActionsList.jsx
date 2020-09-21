@@ -75,7 +75,7 @@ function ActionsList () {
           <StyledTableCellActionTitle>企画</StyledTableCellActionTitle>
           <StyledTableCellOrg>主催</StyledTableCellOrg>
           <StyledTableCellPlace>場所</StyledTableCellPlace>
-          <StyledTableCellPlace>アクション</StyledTableCellPlace>
+          <StyledTableCellPlace>アクション種類</StyledTableCellPlace>
         </TableRow>
       </TableHead>
       <TableBody>
