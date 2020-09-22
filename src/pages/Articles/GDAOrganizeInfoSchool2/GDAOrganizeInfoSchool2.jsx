@@ -219,13 +219,22 @@ function GDAOrganizeInfoSchool2() {
         <li>ディスタンス呼びかけ、靴の返却作業</li>
         <li>参加人数カウント、写真撮ってSNS等で報</li>
         <li>FFFJapan（運営）に参加者数（靴の数）を連絡</li>
-        <ul>
+        <b>受付時間：9/25　18:00まで（アクション終了時間が18時以降の場合は、回答が18時を過ぎても問題ありません）</b> <br />
+        <a
+          style={{ textDecoration: 'underline' }}
+          href="https://docs.google.com/forms/d/e/1FAIpQLSc84AWrqFF0MyO6VifCBfW75ovl_8xfTY77abKGEKfP5vB4-w/viewform"
+          target='_blank'
+         >
+         <b>こちらのフォームから参加者数（靴の数）の報告をしていただけます</b>
+         </a>
+         <br />
+         参加者数報告に関しての質問等は、以下の連絡先までお問い合わせください
+        <ol>
         <li>担当者：テヘラニ・ダニエル（FFF Tokyo）</li>
         <li>電話番号：080-1529-0799</li>
         <li>メールアドレス：daniel.tehrani.33@gmail.com</li>
         <li>FFFJの企画者はslackも可</li>
-        <li>受付時間：9/25　18:00まで</li>
-        </ul>
+        </ol>
         <li>帰るまでがGDCA、気をつけて帰る！！</li>
         </Section>
         <Section>
