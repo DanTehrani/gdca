@@ -33,6 +33,15 @@ export default [
   },
   {
     time: '',
+    actionTitle: 'パタゴニア アウトレット札幌南　シューズアクション',
+    eventPageURL: '',
+    org: 'パタゴニア アウトレット札幌南',
+    orgURL: 'https://www.patagonia.jp/patagonia-sapporo-minami-japan/store_924604533.html',
+    action: 'シューズアクション'
+  },
+  
+  {
+    time: '',
     actionTitle: 'パタゴニア 仙台　シューズアクション',
     eventPageURL: '',
     org: 'パタゴニア 仙台',
@@ -57,6 +66,39 @@ export default [
   },
   {
     time: '',
+    actionTitle: 'パタゴニア東京・神田　シューズアクション',
+    eventPageURL: '',
+    org: 'パタゴニア東京・神田',
+    orgURL: 'https://www.patagonia.jp/patagonia-kanda-japan/store_924604488.html',
+    action: 'シューズアクション'
+  },
+  {
+    time: '',
+    actionTitle: 'パタゴニア 東京・目白　シューズアクション',
+    eventPageURL: '',
+    org: 'パタゴニア 東京・目白',
+    orgURL: 'https://www.patagonia.jp/patagonia-tokyo-mejiro-japan/store_924604510.html',
+    action: 'シューズアクション'
+  },
+  {
+    time: '',
+    actionTitle: 'パタゴニア吉祥寺　シューズアクション',
+    eventPageURL: '',
+    org: 'パタゴニア吉祥寺',
+    orgURL: 'https://www.patagonia.jp/patagonia-tokyo-kichijoji-japan/store_164343492.html',
+    action: 'シューズアクション'
+  },
+  {
+    time: '',
+    actionTitle: 'パタゴニア丸の内　シューズアクション',
+    eventPageURL: '',
+    org: 'パタゴニア丸の内',
+    orgURL: 'https://www.patagonia.jp/patagonia-tokyo-marunouchi-japan/store_164326870.html',
+    action: 'シューズアクション'
+  },
+  
+  {
+    time: '',
     actionTitle: 'パタゴニア サーフ東京／アウトレット　シューズアクション',
     eventPageURL: '',
     org: 'パタゴニア サーフ東京／アウトレット',
@@ -77,14 +119,6 @@ export default [
     eventPageURL: '',
     org: 'パタゴニア 東京・二子玉川',
     orgURL: 'https://www.patagonia.jp/patagonia-futakotamagawa-japan/store_399347574.html',
-    action: 'シューズアクション'
-  },
-  {
-    time: '',
-    actionTitle: 'パタゴニア 鎌倉　シューズアクション',
-    eventPageURL: '',
-    org: 'パタゴニア 鎌倉',
-    orgURL: 'https://www.patagonia.jp/patagonia-kamakura-japan/store_924604452.html',
     action: 'シューズアクション'
   },
   {
