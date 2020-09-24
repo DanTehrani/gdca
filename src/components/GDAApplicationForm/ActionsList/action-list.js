@@ -458,6 +458,36 @@ const list = [
 		"timeStart": "1899-12-30T07:00:00.000Z",
 		"timeEnd": "1899-12-30T08:30:00.000Z",
 		"place": "石巻市中瀬公園"
+	},
+	{
+		"org": "Spiral Club",
+		"orgURL": "http://spiral-club.com/",
+		"actionTitle": "徳島気候アクション",
+		"eventPageURL": "https://www.facebook.com/events/642072593389826?acontext=%7B%22source%22%3A%2229%22%2C%22ref_notif_type%22%3A%22plan_user_associated%22%2C%22action_history%22%3A%22null%22%7D&notif_id=1600583296905227&notif_t=plan_user_associated&ref=notif",
+		"action": "プラカード作り、マーチ、（フォトアクション）",
+		"timeStart": "1899-12-30T07:00:00.000Z",
+		"timeEnd": "1899-12-30T08:30:00.000Z",
+		"place": "カフェオニヴァ、神山、徳島"
+	},
+	{
+		"org": "ClimateStrikeOki",
+		"orgURL": "https://www.facebook.com/groups/climatestrikeoki",
+		"actionTitle": "世界気候アクション0925 沖縄",
+		"eventPageURL": "",
+		"action": "シューズアクション",
+		"timeStart": "1899-12-30T08:00:00.000Z",
+		"timeEnd": "1899-12-30T09:00:00.000Z",
+		"place": "県民広場（沖縄県庁前）"
+	},
+	{
+		"org": "株式会社afterFIT",
+		"orgURL": "https://afterfit.co.jp/",
+		"actionTitle": "シューズアクション＠大門",
+		"eventPageURL": "",
+		"action": "シューズアクション",
+		"timeStart": "",
+		"timeEnd": "",
+		"place": ""
 	}
 ]
 
