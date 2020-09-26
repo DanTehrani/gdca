@@ -488,6 +488,36 @@ const list = [
 		"timeStart": "",
 		"timeEnd": "",
 		"place": ""
+	},
+	{
+		"org": "FridaysForFuture鹿児島",
+		"orgURL": "https://www.instagram.com/fffkagoshima/",
+		"actionTitle": "GDCA 世界気候アクション in 鹿児島",
+		"eventPageURL": "https://www.facebook.com/events/1568905713313866",
+		"action": "シューズアクション",
+		"timeStart": "1899-12-30T07:00:00.000Z",
+		"timeEnd": "1899-12-30T09:00:00.000Z",
+		"place": "鹿児島中央駅群像前広場"
+	},
+	{
+		"org": "Team 華",
+		"orgURL": "",
+		"actionTitle": "気候アクション0925 in山口",
+		"eventPageURL": "",
+		"action": "シューズアクション",
+		"timeStart": "1899-12-30T07:15:00.000Z",
+		"timeEnd": "1899-12-30T07:30:00.000Z",
+		"place": "学校の中庭"
+	},
+	{
+		"org": "Fridays for Future Fukuoka &地球を守ろう",
+		"orgURL": "",
+		"actionTitle": "福岡気候アクションデー",
+		"eventPageURL": "https://fb.me/e/229ZbgZiN",
+		"action": "シューズアクション",
+		"timeStart": "1899-12-30T05:30:00.000Z",
+		"timeEnd": "1899-12-30T08:30:00.000Z",
+		"place": "福岡市役所ふれあい広場、警固公園"
 	}
 ]
 
