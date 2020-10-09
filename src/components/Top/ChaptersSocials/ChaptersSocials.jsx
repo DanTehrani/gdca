@@ -6,6 +6,17 @@ import ChapterSocials from '../ChapterSocials'
 import MobileExpansionPanel from './MobileExpansionPanel'
 import GetInTouchWithChaptersBanner from '../GetInTouchWithChaptersBanner'
 import chapters from './chapters-socials.js'
+import TwitterIconButton from '../../SocialIconButtons/TwitterIconButton'
+import FacebookIconButton from '../../SocialIconButtons/FacebookIconButton'
+import InstagramIconButton from '../../SocialIconButtons/InstagramIconButton'
+import Text from '../../Text'
+import { 
+  YOUTUBE_CHANNEL_LINK, 
+  NOTE_ACCOUNT_LINK, 
+  INSTAGRAM_ACCOUNT_LINK ,
+  TWITTER_URL,
+  FACEBOOK_URL
+} from '../../../constants'
 
 const StyledChaptersSocials = styled.div`
   width: 93%;
@@ -61,6 +72,33 @@ const ChaptersContainer = styled.div`
   padding: 0 4em;
 `
 
+const FFFJapanSocialsTitleContainer = styled.div
+`
+  margin: 1em 0;
+`
+
+const FFFJapanSocialsContainer = styled.div
+`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20%;
+  ${media.lessThan('medium')`
+    width: 70%;
+  `}
+  margin: auto;
+  margin-bottom: 4em;
+`
+
+const ChaptersTitleContainer = styled.div
+`
+  ${media.lessThan('medium')`
+    padding: 0.4em 0em;
+    width: 100%;
+  `}
+`
+
+
 /**
  * Hook that alerts clicks outside of the passed ref
  */
@@ -105,6 +143,17 @@ function ChaptersSocials (props) {
       <GetInTouchWithChaptersBannerContainer>
         <GetInTouchWithChaptersBanner />
       </GetInTouchWithChaptersBannerContainer>
+      <FFFJapanSocialsTitleContainer>
+        <Text style={{ fontSize: '1.7em' }}>FFFJapan</Text>
+      </FFFJapanSocialsTitleContainer>
+      <FFFJapanSocialsContainer>
+        <TwitterIconButton width='40px' onClick={() => { window.open(TWITTER_URL) }}/>
+        <FacebookIconButton width='40px' onClick={() => { window.open(FACEBOOK_URL) }}/>
+        <InstagramIconButton width='40px' onClick={() => { window.open(INSTAGRAM_ACCOUNT_LINK) }}/>
+      </FFFJapanSocialsContainer>
+      <ChaptersTitleContainer>
+        <Text style={{ fontSize: '1.7em' }}>各地のFFF</Text>
+      </ChaptersTitleContainer>
       <ChaptersSocialsContainer>
         {
           isMobileOrTablet
