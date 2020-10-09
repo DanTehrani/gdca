@@ -11,6 +11,7 @@ const Actions = lazy(() => import('./Actions'));
 const PressRelease200623 = lazy(() => import('./Articles/PressRelease200623'));
 const PressRelease200626 = lazy(() => import('./Articles/PressRelease200626'));
 const PressRelease200821 = lazy(() => import('./Articles/PressRelease200821'))
+const PressReleaseGDCA = lazy(() => import('./Articles/PressReleaseGDCA'))
 const Opinion200626 = lazy(() => import('./Articles/Opinion200626'));
 const GDADemand = lazy(() => import('./Articles/GDADemand'))
 const GDAParticipantInfo = lazy(() => import('./Articles/GDAParticipantInfo'))
@@ -114,6 +115,9 @@ function App () {
               </Route>
               <Route path='/press-release-200821'>
                 <PressRelease200821 />
+              </Route>
+              <Route path='/press-release-gdca'>
+                <PressReleaseGDCA />
               </Route>
               <Route path='/gdca-crisis-management'>
                 <GDACrisisManagement />

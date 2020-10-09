@@ -119,6 +119,19 @@ function UpdateNotificationList (props) {
       <Divider variant="inset" />
       <ListItem>
         <DateContainer>
+          <DateText>2020/09/25</DateText>
+        </DateContainer>
+        <TitleAndButtonContainer>
+          <TitleContainer>
+            <ListItemTitle>メディア向け：若者が世界150カ国以上3500カ所で「世界気候アクション0925」を行い、<br /> 日本でも32都道府県75カ所で様々なイベントが開催 <br />全国統一シューズアクションを開催し約1800足の靴が集まる</ListItemTitle>
+          </TitleContainer>
+          <ReadMoreButtonContainer><Link to='/press-release-gdca'><ReadMoreButton /></Link></ReadMoreButtonContainer>
+        </TitleAndButtonContainer>
+      </ListItem>
+      
+      <Divider variant="inset" />
+      <ListItem>
+        <DateContainer>
           <DateText>2020/08/27</DateText>
         </DateContainer>
         <TitleAndButtonContainer>
@@ -171,18 +184,7 @@ function UpdateNotificationList (props) {
       </ListItem>
       <Divider variant="inset" />
       
-      <ListItem>
-        <DateContainer>
-          <DateText>2020/08/21</DateText>
-        </DateContainer>
-        <TitleAndButtonContainer>
-          <TitleContainer>
-            <ListItemTitle>世界気候アクション0925：What do we want? 私たちが求めること</ListItemTitle>
-          </TitleContainer>
-          <ReadMoreButtonContainer><Link to='/gdca-demand'><ReadMoreButton /></Link></ReadMoreButtonContainer>
-        </TitleAndButtonContainer>
-      </ListItem>
-      <Divider variant="inset" />
+      
       {
         only5 && <ReadMoreContainer>
           <Link to="archives">
@@ -193,6 +195,19 @@ function UpdateNotificationList (props) {
       {
         !only5 &&
         <>
+        <ListItem>
+          <DateContainer>
+            <DateText>2020/08/21</DateText>
+          </DateContainer>
+          <TitleAndButtonContainer>
+            <TitleContainer>
+              <ListItemTitle>世界気候アクション0925：What do we want? 私たちが求めること</ListItemTitle>
+            </TitleContainer>
+            <ReadMoreButtonContainer><Link to='/gdca-demand'><ReadMoreButton /></Link></ReadMoreButtonContainer>
+          </TitleAndButtonContainer>
+        </ListItem>
+        <Divider variant="inset" />
+        
         <ListItem>
           <DateContainer>
             <DateText>2020/06/26</DateText>
