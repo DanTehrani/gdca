@@ -56,6 +56,13 @@ export default [
     instagram: 'fffsaitama'
   },
   {
+    name_ja: '横須賀',
+    name_en: 'Yokosuka',
+    twitter: 'FFFYokosuka',
+    facebook: 'fridaysforfutureyokosuka',
+    instagram: 'fridaysforfutureyokosuka'
+  },
+  {
     name_ja: '千葉',
     name_en: 'Chiba',
     twitter: 'fffChiba',
