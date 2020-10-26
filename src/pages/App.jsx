@@ -21,6 +21,7 @@ const GDAOrganizeInfoSchool2 = lazy(() => import('./Articles/GDAOrganizeInfoScho
 const GDAApplicationForm = lazy(() => import('./GDAApplicationForm'));
 const Statement200821 = lazy(() => import('./Articles/Statement200821'))
 const GDACrisisManagement = lazy(() => import('./Articles/GDACrisisManagement'))
+const PressRelease201026 = lazy(() => import('./Articles/PressRelease201026'))
 const GDCAProfileFrame = lazy(() => import('./GDCAProfileFrame'))
 const GDCAJoin = lazy(() => import('./GDCAJoin'))
 const GDCAJoinOnline = lazy(() => import('./GDCAJoinOnline'))
@@ -139,6 +140,9 @@ function App () {
               </Route>  
               <Route path='/archives'>
                 <Archives />
+              </Route>
+              <Route path='/press-release-201026'>
+                <PressRelease201026 />
               </Route>
             </Switch>
           </ScrollTop>

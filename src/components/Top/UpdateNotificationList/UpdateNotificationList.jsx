@@ -119,6 +119,18 @@ function UpdateNotificationList (props) {
       <Divider variant="inset" />
       <ListItem>
         <DateContainer>
+          <DateText>2020/10/26</DateText>
+        </DateContainer>
+        <TitleAndButtonContainer>
+          <TitleContainer>
+            <ListItemTitle>菅首相による2050年温室効果ガス実質ゼロ目標の宣言に際してのコメント</ListItemTitle>
+          </TitleContainer>
+          <ReadMoreButtonContainer><Link to='/press-release-201026'><ReadMoreButton /></Link></ReadMoreButtonContainer>
+        </TitleAndButtonContainer>
+      </ListItem>
+      <Divider variant="inset" />
+      <ListItem>
+        <DateContainer>
           <DateText>2020/09/25</DateText>
         </DateContainer>
         <TitleAndButtonContainer>
@@ -171,19 +183,6 @@ function UpdateNotificationList (props) {
       
       <Divider variant="inset" />
       
-      <ListItem>
-        <DateContainer>
-          <DateText>2020/08/21</DateText>
-        </DateContainer>
-        <TitleAndButtonContainer>
-          <TitleContainer>
-            <ListItemTitle>世界気候アクション0925：アクションモデルガイドライン、参加者の心得を掲載</ListItemTitle>
-          </TitleContainer>
-          <ReadMoreButtonContainer><Link to='/gda-application-form'><ReadMoreButton /></Link></ReadMoreButtonContainer>
-        </TitleAndButtonContainer>
-      </ListItem>
-      <Divider variant="inset" />
-      
       
       {
         only5 && <ReadMoreContainer>
@@ -195,6 +194,18 @@ function UpdateNotificationList (props) {
       {
         !only5 &&
         <>
+        <ListItem>
+          <DateContainer>
+            <DateText>2020/08/21</DateText>
+          </DateContainer>
+          <TitleAndButtonContainer>
+            <TitleContainer>
+              <ListItemTitle>世界気候アクション0925：アクションモデルガイドライン、参加者の心得を掲載</ListItemTitle>
+            </TitleContainer>
+            <ReadMoreButtonContainer><Link to='/gda-application-form'><ReadMoreButton /></Link></ReadMoreButtonContainer>
+          </TitleAndButtonContainer>
+        </ListItem>
+        <Divider variant="inset" />
         <ListItem>
           <DateContainer>
             <DateText>2020/08/21</DateText>
