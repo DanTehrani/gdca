@@ -6,6 +6,13 @@ export default [
     instagram: 'fridays_for_future_furano'
   },
   {
+    name_ja: '小樽',
+    name_en: 'Otaru',
+    twitter: 'FFF_Otaru',
+    instagram: 'fff_otaru',
+    facebook: 'Fridays-For-Future-Otaru-104336481487963',
+  },
+  {
     name_ja: '札幌',
     name_en: 'Sapporo',
     facebook: 'fffsapporo',
