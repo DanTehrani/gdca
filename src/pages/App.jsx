@@ -28,6 +28,7 @@ const GDCAJoinOnline = lazy(() => import('./GDCAJoinOnline'))
 const GDCAEndorsements = lazy(() => import('./GDCAEndorsements'))
 const GDCASharePack = lazy(() => import('./GDCASharePack'))
 const Archives = lazy(() => import('./Archives'))
+const GDCARecap = lazy(() => import('./GDCARecap'))
 
 import { ThemeProvider } from 'styled-components'
 import './App.css'
@@ -143,6 +144,9 @@ function App () {
               </Route>
               <Route path='/press-release-201026'>
                 <PressRelease201026 />
+              </Route>
+              <Route path='/gdca-recap'>
+                <GDCARecap />
               </Route>
             </Switch>
           </ScrollTop>
