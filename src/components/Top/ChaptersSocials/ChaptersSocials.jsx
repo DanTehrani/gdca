@@ -102,9 +102,11 @@ function ChaptersSocials (props) {
 
   return (
     <StyledChaptersSocials ref={wrapperRef}>
-      <GetInTouchWithChaptersBannerContainer>
-        <GetInTouchWithChaptersBanner />
-      </GetInTouchWithChaptersBannerContainer>
+        <GetInTouchWithChaptersBannerContainer>
+        {!props.noTitle && 
+          <GetInTouchWithChaptersBanner />
+        }
+        </GetInTouchWithChaptersBannerContainer>
       <ChaptersSocialsContainer>
         {
           isMobileOrTablet

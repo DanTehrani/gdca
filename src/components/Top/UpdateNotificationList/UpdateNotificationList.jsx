@@ -119,6 +119,18 @@ function UpdateNotificationList (props) {
       <Divider variant="inset" />
       <ListItem>
         <DateContainer>
+          <DateText>2020/11/09</DateText>
+        </DateContainer>
+        <TitleAndButtonContainer>
+          <TitleContainer>
+            <ListItemTitle>世界気候アクション0925振り返りページを公開</ListItemTitle>
+          </TitleContainer>
+          <ReadMoreButtonContainer><Link to='/gdca-recap'><ReadMoreButton /></Link></ReadMoreButtonContainer>
+        </TitleAndButtonContainer>
+      </ListItem>
+      <Divider variant="inset" />
+      <ListItem>
+        <DateContainer>
           <DateText>2020/10/26</DateText>
         </DateContainer>
         <TitleAndButtonContainer>
@@ -169,20 +181,6 @@ function UpdateNotificationList (props) {
       
       <Divider variant="inset" />
       
-      <ListItem>
-        <DateContainer>
-          <DateText>2020/08/21</DateText>
-        </DateContainer>
-        <TitleAndButtonContainer>
-          <TitleContainer>
-            <ListItemTitle>責任ある気候変動対策・エネルギー政策を求める若者の声明</ListItemTitle>
-          </TitleContainer>
-          <ReadMoreButtonContainer><Link to='/statement-2020-08-21'><ReadMoreButton /></Link></ReadMoreButtonContainer>
-        </TitleAndButtonContainer>
-      </ListItem>
-      
-      <Divider variant="inset" />
-      
       
       {
         only5 && <ReadMoreContainer>
@@ -194,6 +192,19 @@ function UpdateNotificationList (props) {
       {
         !only5 &&
         <>
+        <ListItem>
+          <DateContainer>
+            <DateText>2020/08/21</DateText>
+          </DateContainer>
+          <TitleAndButtonContainer>
+            <TitleContainer>
+              <ListItemTitle>責任ある気候変動対策・エネルギー政策を求める若者の声明</ListItemTitle>
+            </TitleContainer>
+            <ReadMoreButtonContainer><Link to='/statement-2020-08-21'><ReadMoreButton /></Link></ReadMoreButtonContainer>
+          </TitleAndButtonContainer>
+        </ListItem>
+        
+        <Divider variant="inset" />
         <ListItem>
           <DateContainer>
             <DateText>2020/08/21</DateText>

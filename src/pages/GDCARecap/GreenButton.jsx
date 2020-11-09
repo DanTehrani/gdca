@@ -17,6 +17,9 @@ const StyledGreenButton = styled.button
   `}
   background-color: #96F564;
   border: 0px;
+  &:hover {
+    cursor: pointer;
+  }
 `
 
 const StyledText = styled(Text)
@@ -33,7 +36,7 @@ function GreenButtonWithContainer (props) {
   const { text, href } = props
   return (
     <Container>
-      <StyledGreenButton>
+      <StyledGreenButton onClick={() => {window.open(href)}}>
         <StyledText bold>{text}</StyledText>
       </StyledGreenButton>
     </Container>

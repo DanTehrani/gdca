@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import GDABannerB from '../GDABannerB'
 import LargeImage from '../LargeImage'
 import EndorseBannerB from '../EndorseBannerB'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -31,7 +30,6 @@ function TopSlider () {
       interval={3000} 
       showStatus={false}
       >
-      <GDABannerB />
       <EndorseBannerB />
       <LargeImage />
     </Carousel>
