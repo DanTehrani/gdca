@@ -119,7 +119,7 @@ function UpdateNotificationList (props) {
       <Divider variant="inset" />
       <ListItem>
         <DateContainer>
-          <DateText>2020/11/09</DateText>
+          <DateText>2020/11/11</DateText>
         </DateContainer>
         <TitleAndButtonContainer>
           <TitleContainer>
