@@ -89,13 +89,13 @@ const approaches = [
     toWhom: '京都市・京都府',
     what: (<span>
         京都市： <br />
-      {largeSpace} 職員さんとの意見交換会の実施 <br />
+      {largeSpace} 京都市長と京都市の温暖化対策についての意見交流会を実施 <br />
         京都府： <br />
       {largeSpace} 職員さんへのアプローチ準備中 <br />
     </span>),
     achievements: (<span>
         京都市： <br />
-      {largeSpace} 政策的対話の場の実現(2020年6月〜12月開催予定) <br />
+      {largeSpace} 京都市長から『ヴィーガン給食の導入について検討』等の対策について賛同いただいた。 <br />
     </span>)
   },
   {
