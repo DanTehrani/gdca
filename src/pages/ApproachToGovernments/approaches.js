@@ -95,7 +95,7 @@ const approaches = [
     </span>),
     achievements: (<span>
         京都市： <br />
-      {largeSpace} 京都市長から『ヴィーガン給食の導入について検討』等の対策について賛同いただいた。 <br />
+      {largeSpace} 京都市長から『ヴィーガン給食の導入について検討』等の対策について賛同いただいた <br />
     </span>)
   },
   {
