@@ -119,6 +119,18 @@ function UpdateNotificationList (props) {
       <Divider variant="inset" />
       <ListItem>
         <DateContainer>
+          <DateText>2020/12/11</DateText>
+        </DateContainer>
+        <TitleAndButtonContainer>
+          <TitleContainer>
+            <ListItemTitle>国民会議開催に伴い、若者が「1.5℃目標の実現と国民を巻き込んだ公正な議論」を求める署名を政府に提出</ListItemTitle>
+          </TitleContainer>
+          <ReadMoreButtonContainer><Link to='/press-release-201211'><ReadMoreButton /></Link></ReadMoreButtonContainer>
+        </TitleAndButtonContainer>
+      </ListItem>
+      <Divider variant="inset" />
+      <ListItem>
+        <DateContainer>
           <DateText>2020/11/11</DateText>
         </DateContainer>
         <TitleAndButtonContainer>
@@ -167,19 +179,6 @@ function UpdateNotificationList (props) {
       </ListItem>
     
       <Divider variant="inset" />
-      <ListItem>
-        <DateContainer>
-          <DateText>2020/08/21</DateText>
-        </DateContainer>
-        <TitleAndButtonContainer>
-          <TitleContainer>
-            <ListItemTitle>若者からエネルギー政策の大転換を求める声明文の提出</ListItemTitle>
-          </TitleContainer>
-          <ReadMoreButtonContainer><Link to='/press-release-200821'><ReadMoreButton /></Link></ReadMoreButtonContainer>
-        </TitleAndButtonContainer>
-      </ListItem>
-      
-      <Divider variant="inset" />
       
       
       {
@@ -192,6 +191,19 @@ function UpdateNotificationList (props) {
       {
         !only5 &&
         <>
+        <ListItem>
+          <DateContainer>
+            <DateText>2020/08/21</DateText>
+          </DateContainer>
+          <TitleAndButtonContainer>
+            <TitleContainer>
+              <ListItemTitle>若者からエネルギー政策の大転換を求める声明文の提出</ListItemTitle>
+            </TitleContainer>
+            <ReadMoreButtonContainer><Link to='/press-release-200821'><ReadMoreButton /></Link></ReadMoreButtonContainer>
+          </TitleAndButtonContainer>
+        </ListItem>
+        
+        <Divider variant="inset" />
         <ListItem>
           <DateContainer>
             <DateText>2020/08/21</DateText>
