@@ -190,7 +190,7 @@ function PressRelease201211 () {
           （1）1.5度目標の達成と早急な対策の実施  <br />
           （2）公正な政策決定のプロセス <br />
           （3）若者の意見の尊重<br />
-          署名は12月14日正午で締め切る予定です。最終結果については以下記述の記者会見で報告します
+          署名は12月14日正午で締め切る予定です。最終結果については以下記述の記者会見で報告します。
           </Column>
           <ImageContainer>
             <Image src={img} />
@@ -205,40 +205,6 @@ function PressRelease201211 () {
         <a href="https://fridaysforfuture.jp/statement-2020-08-21" target='_blank'>※3　声明文全文　FFFJapanHP掲載</a>
         </Section>
 
-        <Section>
-        以下の日程で記者会見を行うことをお知らせします。署名提出の現地取材については、新型コロナウイルス感染症予防のためお断りさせていただきます。提出の報告は記者会見で行います。あらかじめご了承ください。また記者会見についてはオンラインでの開催予定です。
-
-        </Section>
-        
-        <Section>
-        <Heading>【記者会見案内】</Heading>
-        <Table>
-          <tr>
-            <Td1>開催日時</Td1>
-            <Td2>2020年12月16日　16:00~17:00</Td2>
-          </tr>
-          <tr>
-            <Td1>オンライン会場</Td1>
-            <Td2>zoom（ウェビナー）<br/>
-https://us02web.zoom.us/j/89688890223?pwd=OEhlZldVVDl2L3BuZUVhd1dKYW1Sdz09<br/>
-ID：896 8889 0223<br/>
-パスワード： 20201216 <br/></Td2>
-          </tr>
-          <tr>
-            <Td1>内容</Td1>
-            <Td2>署名の最終結果と提出の報告、国民会議に対するFFFJのコメント</Td2>
-          </tr>
-          <tr>
-            <Td1>問い合わせ</Td1>
-            <Td2>提出者代表者名：国立音楽大学1年<br />
-黒部睦(Fridays For Future Tokyo/Japan所属) <br />
-電話番号：080-9975-8672<br />
-メールアドレス：miley.mutsumi@gmail.com</Td2>
-          </tr>
-        </Table>
-        ※zoom参加の、名前設定を「名前_所属名」に行ったうえでの参加をお願いいたします。
-        </Section>
-        
         <Section centered>
         代表連絡先 <br />
 中村 涼夏（Fridays For Fututre Japan）：080-1561-9887  <br />
