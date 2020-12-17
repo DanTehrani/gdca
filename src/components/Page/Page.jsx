@@ -28,7 +28,6 @@ function Page (props) {
     <StyledPage {...props}>
       {props.children}
       <CookieConsentBanner />
-      {isBelowThreshold ? <MobileShareBar /> : <Sidebar />}
     </StyledPage>
   )
 }

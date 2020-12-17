@@ -41,7 +41,7 @@ function GDCAHeaderMobile (props) {
     <StyledHeader>
       <UpperHalfContainer>
           <StyledLogos>
-            <HashLink to="/#gdca-home" smooth>
+            <HashLink to="/" smooth>
               <HeaderImage src={headerImage} />
             </HashLink>
           </StyledLogos>

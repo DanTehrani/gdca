@@ -270,6 +270,9 @@ function GDAApplicationForm (props) {
             <StyledCol><Link to='gdca-action-guide-school'><GuideTitle></GuideTitle></Link></StyledCol>
           </Row>
         </GuidesContainer>
+        <FormContainer>
+          <SectionHeading title='*登録は締め切りました'/>
+        </FormContainer>
         <Box2Container id='actions-list'>
           <GDCAPageHeading 
             title='&emsp;&nbsp;イベント一覧&emsp;&nbsp;'
@@ -280,10 +283,7 @@ function GDAApplicationForm (props) {
             <ActionsList />
           </ActionsListContainer>
         </Box2Container>
-        <FormContainer>
-        <SectionHeading title='登録しよう！'/>
-          <GoogleForm />
-        </FormContainer>
+        
       </StyledGDAApplicationForm>
       <GDCAFooter />
     </Page>

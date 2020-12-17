@@ -2,7 +2,7 @@ import React from 'react'
 import { useMediaQuery } from 'react-responsive'
 import styled from 'styled-components'
 import media from 'styled-media-query'
-import Header from '../../components/Header'
+import GDAHeader from '../../components/GDAHeader'
 import Footer from '../../components/Footer'
 import Page from '../../components/Page'
 import Text from '../../components/Text'
@@ -67,7 +67,7 @@ const ChapersSocialsContainer = styled.div
 function GDCARecap () {
   return (
     <StyledPage maxWidth='1120px'>
-      <Header />
+      <GDAHeader />
       <TopImage src={topImg}/>
       <GreenButton text='メディア向け' href='https://fridaysforfuture.jp/press-release-gdca'/>
       <VideoContainer>

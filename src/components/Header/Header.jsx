@@ -71,34 +71,13 @@ function Header (props) {
         <link id="favicon16" rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
       </Helmet>
       <UpperHalfContainer>
-        <Link to='/'>
+        <a href='https://fridaysforfuture.jp'>
           <StyledLogos>
             <RoundLogo width={roundLogoWidth}/>
             <Logo width={logoWidth}/>
           </StyledLogos>
-        </Link>
-        {
-          isMobileOrTablet
-            ? <LinkMenu fontSize={fontSize}>
-              {pathname !== '/' && <MobileLinkItem fontSize={fontSize} to='/'>{t('Header.Top')}</MobileLinkItem>}
-              {pathname !== '/about-us' && <MobileLinkItem fontSize={fontSize} to='/about-us'>{t('Header.About Us')}</MobileLinkItem>}
-              {pathname !== '/faq' && <MobileLinkItem fontSize={fontSize} to='/faq'>FAQ</MobileLinkItem>}
-              {pathname !== '/to-organize-form' && <MobileLinkItem fontSize={fontSize} to='/to-organize-form'>{t('Header.Organize')}</MobileLinkItem>}
-              {pathname !== '/approach-to-governments' && <MobileLinkItem fontSize={fontSize} to='/approach-to-governments'>{t('Header.APG')}</MobileLinkItem>}
-            </LinkMenu>
-            : <StyledLinkItems>
-              <LinkItem fontSize={fontSize} to='/about-us' color={pathname === '/about-us' ? currentPageColor : textColor}>{t('Header.About Us')}</LinkItem>
-              <LinkItem fontSize={fontSize} to='/approach-to-governments' color={pathname === '/approach-to-governments' ? currentPageColor : textColor}>{t('Header.APG')}</LinkItem>
-              <LinkItem fontSize={fontSize} to='/to-organize-form' color={pathname === '/to-organize-form' ? currentPageColor : textColor}>{t('Header.Organize')}</LinkItem>
-              <LinkItem fontSize={fontSize} to='/faq' color={pathname === '/faq' ? currentPageColor : textColor}>{t('Header.FAQ')}</LinkItem>
-            </StyledLinkItems>
-        }
+        </a>
       </UpperHalfContainer>
-      <LowerHalfContainer>
-        {
-          isMobileOrTablet && <MobileShareBar />
-        }
-      </LowerHalfContainer>
     </StyledHeader>
   )
 }

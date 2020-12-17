@@ -113,30 +113,12 @@ function FooterDesktop () {
         <LinkWrapper href={NOTE_ACCOUNT_LINK} target='_blank'><NoteIcon width='2.5em'/></LinkWrapper>
       </SocialsContainer>
       <MainContainer>
-        <Link to='/'>
+        <a href='https://fridaysforfuture.jp'>
           <StyledLogos>
             <RoundLogo width={roundLogoWidth}/>
             <Logo width={logoWidth}/>
           </StyledLogos>
-        </Link>
-        <StyledLinkItems>
-          <StyledLinkItemsRow>
-            <StyledLinkItemsColumn>
-              <LinkItem fontSize={fontSize} to='/about-us'>{t('Footer.About Us')}</LinkItem>
-              <LinkItem fontSize={fontSize} to='/faq'>{t('Footer.FAQ')}</LinkItem>
-            </StyledLinkItemsColumn>
-            <StyledLinkItemsColumn>
-              <LinkItem fontSize={fontSize} to='/approach-to-governments'>{t('Footer.APG')}</LinkItem>
-              <LinkItem fontSize={fontSize} to='/to-organize-form'>{t('Footer.Organize')}</LinkItem>
-            </StyledLinkItemsColumn>
-            <StyledLinkItemsColumn>
-              <LinkItem fontSize={fontSize} to='/privacy-policy'>{t('Footer.PP')}</LinkItem>
-            </StyledLinkItemsColumn>
-          </StyledLinkItemsRow>
-          <LangSwapContainer>
-            <LangSwitchButton currenctLang={i18n.language === 'en' ? '日本語' : 'English'} onClick={toggleLang}/>
-          </LangSwapContainer>
-        </StyledLinkItems>
+        </a>
       </MainContainer>
     </StyledFooterDesktop>
   )

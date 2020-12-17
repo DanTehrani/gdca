@@ -111,22 +111,12 @@ function FooterMobile () {
         </IconsContainer>
       </SocialsContainer>
       <MainContainer>
-        <Link to='/'>
+        <a href='https://fridaysforfuture.jp'>
           <StyledLogos>
             <RoundLogo width={roundLogoWidth}/>
             <Logo width={logoWidth}/>
           </StyledLogos>
-        </Link>
-        <StyledLinkItemsColumn>
-          <LinkItem fontSize={fontSize} to='/about-us'>{t('Footer.About Us')}</LinkItem>
-          <LinkItem fontSize={fontSize} to='/faq'>{t('Footer.FAQ')}</LinkItem>
-          <LinkItem fontSize={fontSize} to='/approach-to-governments'>{t('Footer.APG')}</LinkItem>
-          <LinkItem fontSize={fontSize} to='/to-organize-form'>{t('Footer.Organize')}</LinkItem>
-          <LinkItem fontSize={fontSize} to='/privacy-policy'>{t('Footer.PP')}</LinkItem>
-        </StyledLinkItemsColumn>
-        <LangSwapContainer>
-          <LangSwitchButton currenctLang={i18n.language === 'en' ? '日本語' : 'English'} onClick={toggleLang}/>
-        </LangSwapContainer>
+        </a>
       </MainContainer>
     </StyledFooterMobile>
   )
